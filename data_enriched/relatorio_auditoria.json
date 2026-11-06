@@ -1,0 +1,121 @@
+{
+  "total_atendimentos_unicos_id": 204579,
+  "ids_nulos": 0,
+  "ids_duplicados": 0,
+  "municipios_dados_txt": 184,
+  "municipios_ibge": 184,
+  "municipios_pareados_sucesso": 184,
+  "registros_com_espacos_extras_municipio": 204579,
+  "nomes_com_ruido_corrigidos": 17,
+  "divergencias_grafia_tratadas": [
+    {
+      "dados_txt": "ITAPAGÉ",
+      "ibge": "Itapajé",
+      "chave": "ITAPAJE"
+    },
+    {
+      "dados_txt": "ERERÊ",
+      "ibge": "Ereré",
+      "chave": "ERERE"
+    }
+  ],
+  "ha_municipios_com_mais_atendimentos_que_habitantes": false,
+  "qtd_municipios_mais_atendimentos_que_habitantes": 0,
+  "lista_municipios_mais_atendimentos_que_habitantes": [],
+  "maior_proporcao_municipio": {
+    "MUNICIPIO": "Penaforte",
+    "TOTAL_ATENDIMENTOS": 753,
+    "POPULACAO_2022": 8972,
+    "ATENDIMENTOS_POR_100K_HAB": 8392.78,
+    "PROPORCAO_POP_ATENDIDA_PCT": 8.39
+  },
+  "menor_proporcao_municipio": {
+    "MUNICIPIO": "Fortaleza",
+    "TOTAL_ATENDIMENTOS": 9364,
+    "POPULACAO_2022": 2428708,
+    "ATENDIMENTOS_POR_100K_HAB": 385.55,
+    "PROPORCAO_POP_ATENDIDA_PCT": 0.39
+  },
+  "top_20_primeiros_nomes": [
+    {
+      "primeiro_nome": "MARIA",
+      "atendimentos": 48242
+    },
+    {
+      "primeiro_nome": "FRANCISCA",
+      "atendimentos": 14179
+    },
+    {
+      "primeiro_nome": "ANTONIA",
+      "atendimentos": 12346
+    },
+    {
+      "primeiro_nome": "ANA",
+      "atendimentos": 9478
+    },
+    {
+      "primeiro_nome": "CICERA",
+      "atendimentos": 2361
+    },
+    {
+      "primeiro_nome": "FRANCISCO",
+      "atendimentos": 2192
+    },
+    {
+      "primeiro_nome": "RAIMUNDA",
+      "atendimentos": 1320
+    },
+    {
+      "primeiro_nome": "JOSE",
+      "atendimentos": 1225
+    },
+    {
+      "primeiro_nome": "ANTONIO",
+      "atendimentos": 1225
+    },
+    {
+      "primeiro_nome": "RITA",
+      "atendimentos": 1117
+    },
+    {
+      "primeiro_nome": "ADRIANA",
+      "atendimentos": 1004
+    },
+    {
+      "primeiro_nome": "PATRICIA",
+      "atendimentos": 909
+    },
+    {
+      "primeiro_nome": "JULIANA",
+      "atendimentos": 805
+    },
+    {
+      "primeiro_nome": "ALINE",
+      "atendimentos": 724
+    },
+    {
+      "primeiro_nome": "LUANA",
+      "atendimentos": 723
+    },
+    {
+      "primeiro_nome": "LUCIANA",
+      "atendimentos": 707
+    },
+    {
+      "primeiro_nome": "VITORIA",
+      "atendimentos": 700
+    },
+    {
+      "primeiro_nome": "JOSEFA",
+      "atendimentos": 698
+    },
+    {
+      "primeiro_nome": "CAMILA",
+      "atendimentos": 696
+    },
+    {
+      "primeiro_nome": "JOANA",
+      "atendimentos": 680
+    }
+  ]
+}

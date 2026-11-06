@@ -21,10 +21,16 @@ def carregar_dados() -> tuple[
     pd.DataFrame,
     dict,
 ]:
-    """Carrega os datasets enriquecidos do disco (ou executa o pipeline caso ainda não existam)."""
+    """Carrega os datasets enriquecidos do disco (ou executa o pipeline caso os brutos existam localmente)."""
     arq_mun = OUTPUT_DIR / "municipios_enriquecidos.parquet"
     if not arq_mun.exists():
-        executar_enriquecimento()
+        if (BASE_DIR / "DADOS.txt").exists() and (BASE_DIR / "Censo 2022 (2022).csv").exists():
+            executar_enriquecimento()
+        else:
+            raise FileNotFoundError(
+                f"Os arquivos enriquecidos em '{OUTPUT_DIR}' não foram encontrados no repositório. "
+                "Certifique-se de fazer commit da pasta 'data_enriched/' (arquivos .parquet, .csv leves e .json) no GitHub."
+            )
 
     df_mun = pd.read_parquet(arq_mun)
     df_mort_hist = pd.read_csv(OUTPUT_DIR / "mortalidade_historico.csv")

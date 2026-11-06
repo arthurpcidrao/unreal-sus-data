@@ -32,12 +32,11 @@ htmlcov/
 coverage.xml
 
 # =============================================================================
-# Bases de Dados Brutas e Arquivos Gerados pelo Pipeline (Dados Pesados / Sensíveis)
+# Arquivos de Dados Brutos/Pesados (Mantendo apenas os dados leves em data_enriched/ para o Streamlit Cloud)
 # =============================================================================
 DADOS.txt
-*.csv
-*.parquet
-data_enriched/
+/*.csv
+data_enriched/atendimentos_enriquecidos.csv
 
 # =============================================================================
 # Configurações de Segredos, Variáveis de Ambiente e Streamlit
